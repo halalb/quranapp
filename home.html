@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="sidebar">
+        <button id="home-btn">Home</button>
+        <button id="new-chat-btn">New Chat</button>
+        
+        <div id="chat-history" class="chat-history">
+            <h3>Chat History</h3>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <header class="header">
+            <div>Quran Chat</div>
+            <a href="#" class="login-logout">Login/Logout</a>
+        </header>
+
+        <!-- Chat messages area -->
+        <div class="chat-messages" id="chat-messages" style="flex: 1; padding: 20px;">
+            <!-- Chat messages would go here -->
+        </div>
+
+        <div class="message-box">
+            <textarea id="user-input" placeholder="Type your message here..." rows="3"></textarea>
+            <button id="send-button">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="newbutton.js"></script>
+</body>
+</html>
