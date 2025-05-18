@@ -24,11 +24,11 @@ app = Flask(__name__)
 CORS(app)
 
 # Set up Google API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyCJlefBe70vjVMPIAQvjyfJLDa6T_FfWRc"
-
+#os.environ["GOOGLE_API_KEY"] = "AIzaSyCJlefBe70vjVMPIAQvjyfJLDa6T_FfWRc"
+os.environ["GOOGLE_API_KEY"] = "AIzaSyCmO9O3Q1A8BQXAw2OTuAtMbHMX6lRDxRA"
 # Initialize Gemini model using LangChain's wrapper
 llm = ChatGoogleGenerativeAI(
-    model="gemini-1.5-pro",
+    model="gemini-2.0-flash",
     temperature=0,
     google_api_key=os.environ["GOOGLE_API_KEY"],
 )
@@ -149,10 +149,10 @@ def chat():
 
 @app.route('/')
 def index():
-    return app.send_static_file('index.html')
+    return app.send_static_file('home.html')
 
 app.static_folder = 'static'
 
 if __name__ == '__main__':
     logger.info("Starting Flask server...")
-    app.run(host='0.0.0.0', port=8080, debug=True)
+    app.run(host='0.0.0.0', port=8080, debug=True, use_reloader=False)
