@@ -98,3 +98,26 @@ Built using **LangChain**, **Google Gemini**, **FAISS**, and **Flask**, the app 
 | Deployment    | Docker (multistage build)                   |
 
 ---
+📊 Evaluation & Results
+86% of users rated chapter summaries as the clearest output
+
+Performance improved significantly with added Tafsir documents
+
+Multi-turn conversation preserved context accurately
+
+---
+
+🔮 Future Improvements
+Add multilingual embedding support
+
+Integrate multiple Tafsir sources
+
+Improve caching and cold start speed
+
+Cloud deployment
+
+---
+
+👤 Author
+Hasib Uddin
+📧 [hasib.uddin@example.com]
