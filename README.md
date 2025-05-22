@@ -98,6 +98,18 @@ Built using **LangChain**, **Google Gemini**, **FAISS**, and **Flask**, the app 
 | Deployment    | Docker (multistage build)                   |
 
 ---
+## 📸 Screenshots
+
+| Home Page                       | Chat Interaction                   |
+|--------------------------------|------------------------------------|
+| ![image](https://github.com/user-attachments/assets/19f64ff7-f967-4fb6-931f-487338b2cf63)
+     | ![image](https://github.com/user-attachments/assets/2df83460-6ccb-498d-9185-291dbacd94dd)
+       |
+
+---
+
+
+
 📊 Evaluation & Results
 86% of users rated chapter summaries as the clearest output
 
@@ -117,6 +129,7 @@ Improve caching and cold start speed
 Cloud deployment
 
 ---
+
 
 👤 Author
 Hasib Uddin
