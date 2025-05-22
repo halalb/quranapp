@@ -100,10 +100,10 @@ Built using **LangChain**, **Google Gemini**, **FAISS**, and **Flask**, the app 
 ---
 ## 📸 Screenshots
 
-| Home Page                      | 
+|   Chat Interactions                    | 
 |--------------------------------|
 | ![image](https://github.com/user-attachments/assets/19f64ff7-f967-4fb6-931f-487338b2cf63)|
-
+| ![image](https://github.com/user-attachments/assets/1da56b0b-15b5-409e-b90c-1dab56f87671)|
 
 ---
 
