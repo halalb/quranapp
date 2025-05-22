@@ -98,14 +98,3 @@ Built using **LangChain**, **Google Gemini**, **FAISS**, and **Flask**, the app 
 | Deployment    | Docker (multistage build)                   |
 
 ---
-
-## 📂 Project Structure
-quranapp/
-├── chatbot.py # RAG pipeline logic
-├── vector_store.pkl # Precomputed FAISS index
-├── home.html # Frontend UI
-├── script.js # Chat logic
-├── newbutton.js # Session handling
-├── styles.css # Styling
-├── README.md # You're reading it!
-
